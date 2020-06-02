@@ -43,7 +43,6 @@ var totalNumberofRows = 5;
         console.log(output);
         output = '';
     }
-
  //TASK6.Declare a variable called email and assign to it a string that represents your Email
  // Address(e.g. example@example.com). 
  //Show the blow mentioned message in an alert box.(Hint: use string concatenation)    
@@ -61,3 +60,27 @@ var totalNumberofRows = 5;
 var arr="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 document.write(arr);
 alert(arr);
+
+//CHAPTER 6
+
+//TASK1. Declare a variable called age & assign to it your age. Show your age in an alert box.
+var age=21;
+alert("Im "+age+" years old.");
+//TASK2. Declare & initialize a variable to keep track of how many times a visitor has visited a web page. 
+//Show his/her number of visits on your web page. For example: “You have visited this site N times”. 
+ 
+
+//TASK3. Declare a variable called birthYear & assign to it your birth year. 
+//Show the following message in your browser: 
+var birthYear=1998;
+document.write("My birth year is "+birthYear);
+document.write("Data type of my declared variable is "+typeof birthYear)
+//TASK4. A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in 
+//variables the following information: a. Visitor’s name b. Product title c. Quantity i.e. 
+//how many products a visitor wants to order Show the following message in your browser: 
+//“John Doe ordered 5 T-shirt(s) on XYZ Clothing store”. 
+var q=prompt("Your name: ","");
+var w=prompt("Product Title: ","");
+var e=prompt("Quantity: ","");
+document.write(q+ " ordered " + e+w +" on XYZ Clothing store");
+
