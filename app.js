@@ -56,3 +56,8 @@ var totalNumberofRows = 5;
   alert(book);
   //TASK8. Write a script to display this in browser through JS 
   document.write("Yah! I can write HTML content through JavaScript");
+//TASK9. Store following string in a variable and show in alert and 
+//browser through JS “▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬” 
+var arr="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+document.write(arr);
+alert(arr);
