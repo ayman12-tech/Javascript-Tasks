@@ -84,3 +84,35 @@ var w=prompt("Product Title: ","");
 var e=prompt("Quantity: ","");
 document.write(q+ " ordered " + e+w +" on XYZ Clothing store");
 
+//CHAPTER 4
+//TASK1. Declare 3 variables in one statement.
+var a,b,c;
+
+//TASK2. Declare 5 legal & 5 illegal variable names. 
+//legal:
+var ayman;
+var Ayman;
+var ayRiz;
+var num1;
+var $rizwan;
+//illegal:
+// var 11;
+// var 1num;
+// var alert;
+// var var;
+// var ay.a;
+
+//TASK3. Display this in your browser a)  A heading stating “Rules for naming JS variables” 
+//b)  Variable names can only contain ______, ______, ______ and ______. For example $my_1stVariable
+//c) Variables must begin with a ______, ______ or _____. For example $name, _name or name 
+//d) Variable names are case _________ e) Variable names should not be JS _________   
+document.write("<br><b>Rules for naming JS variables</b>");
+document.write("<br>Variable names can only contain ______, ______, ______ and ______.<br> For example $my_1stVariable");
+document.write("<br>Variables must begin with a ______, ______ or _____. For example $name, _name or name");
+document.write("<br>Variables names are case sensitive.");
+document.write("<br> Variable names should not be JS keywords");
+ 
+ 
+
+
+
