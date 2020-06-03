@@ -227,6 +227,46 @@ var amt=10;
 var ripe=(max_age-c_age)*amt;
 document.write("<br><br>You will need " +ripe+"lays to last you until the ripe old age of 90");
 
+//CHAPTERS 6-9:
+//TASK 1. Write a program to take a number in a variable, do the required arithmetic to 
+//display the following result in your browser:  
+var ra=10;
+document.write("The value of a is "+ra);
+++ra;
+document.write("The value of ++a is "+ra);
+ra++;
+document.write("The value of a++ is "+ra);
+--ra;
+document.write("The value of --a is "+ra);
+ra--;
+document.write("The value of a-- is "+ra);
+//TASK 2. What will be the output in variables a, b & result after execution of the following script: 
+//var a = 2, b = 1; var result = --a - --b + ++b + b--; Explain the output at each stage: 
+//--a; --a - --b; --a - --b + ++b; --a - --b + ++b + b--; 
+var a=2;
+var b=1;
+var result=--a - --b + ++b + b--;
+var result1=--a; --a - --b;
+var result2=--a - --b + ++b;
+var result3=--a - --b + ++b + b--;
+document.write(result);
+document.write(result1);
+document.write(result2);
+document.write(result3);
+//TASK 3. Write a program that takes input a name from user & greet the user. 
+var ariz=prompt("Enter your name");
+alert("Welcome: "+ariz);
+//TASK 5. Write a program to take input a number from user & display it’s multiplication table on your browser. 
+//If user does not enter a new number, multiplication table of 5 should be displayed by default. 
+var no=+prompt("Enter a no.","");
+if (no==null)
+{
+
+}
+else{
+    
+}
+
 
 
  
