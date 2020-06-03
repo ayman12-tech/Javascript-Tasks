@@ -111,8 +111,122 @@ document.write("<br>Variable names can only contain ______, ______, ______ and _
 document.write("<br>Variables must begin with a ______, ______ or _____. For example $name, _name or name");
 document.write("<br>Variables names are case sensitive.");
 document.write("<br> Variable names should not be JS keywords");
+
+//CHAPTER 5
+//TASK 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser.  
+ var c=+prompt("Enter a no.","");
+ var d=+prompt("Enter a no.","");
+ var e=(c+d);
+ document.write("Sum of "+c+ " and " +d+ " is " +e);
+ //TASK 2. Repeat task1 for subtraction, multiplication, division & modulus. 
+ var c=+prompt("Enter a no.","");
+ var d=+prompt("Enter a no.","");
+ var e=(c-d);
+ document.write("Sum of "+c+ " and " +d+ " is " +e);
+
+ var c=+prompt("Enter a no.","");
+ var d=+prompt("Enter a no.","");
+ var e=(c*d);
+ document.write("Sum of "+c+ " and " +d+ " is " +e);
+
+ var c=+prompt("Enter a no.","");
+ var d=+prompt("Enter a no.","");
+ var e=(c%d);
+ document.write("Sum of "+c+ " and " +d+ " is " +e);
  
+
+ //TASK 3. Do the following using JS Mathematic Expressions a. Declare a variable. 
+ //b. Show the value of variable in your browser like “Value after variable declaration is: ??”. 
+ //c. Initialize the variable with some number. d. Show the value of variable in your browser like 
+ //“Initial value: 5”. e. Increment the variable. f. Show the value of variable in your browser like 
+ //“Value after increment is: 6”. g. Add 7 to the variable. h. Show the value of variable in your
+  //browser like “Value MATH EXPRESSIONS | JAVASCRIPT after addition is: 13”. 
+  //i. Decrement the variable. j. Show the value of variable in your browser like 
+  //“Value after decrement is: 12”. k. Show the remainder after dividing the variable’s 
+  //value by 3.  l. Output : “The remainder is : 0”. 
+ var u=undefined;
+ document.write("<br>Value after variable declaration is: " +u);
+ u=22;
+ document.write("<br>Initial value:"+u);
+ ++u;
+ document.write("<br>Value after increment is:" +u);
+ var f=u+7;
+ document.write("<br>Value MATH EXPRESSIONS | JAVASCRIPT after addition is: "+f);
+ --f;
+ document.write("<br>Value after decrement is: "+f);
+ var r=f/3;
+document.write("The remainder is ",+r);
+//TASK 4. Cost of one movie ticket is 600 PKR. Write a script to store ticket 
+//price in a variable & calculate the cost of buying 5 tickets to a movie. Example output: 
+var j=+prompt("<br>Enter the quantity:","");
+arra=600*j;
+document.write("<br>Total cost to buy"+j+"tickets to a movie is: "+arra);
+//TASK 5.Write a script to display multiplication table of any number in your browser. 
+for(i=1;i<11;i++)
+{   
+    document.write("<br>4 x "+ i +"="+4*i);
+}
+//TASK 6. The Temperature Converter: It’s hot out! Let’s make a converter based on the 
+//steps here. a.  Store a Celsius temperature into a variable. b. Convert it to Fahrenheit 
+//& output “NNoC is NNoF”. c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”. 
+var celsius=20;
+var ffar=(celsius*9/5)+32;
+document.write(celsius+"<br>C is"+ffar);
+var ft=96;
+var cs=(ft-32)*5/9;
+document.write(ft+"<br>F is"+cs);
+//TASK 7.  Write a program to implement checkout process of a shopping cart system for an e-commerce 
+//website. Store the following in variables a. Price of item 1 b. Price of item 2 
+//c. Ordered quantity of item 1 d. Ordered Quantity of item 2 e. Shipping charges 
+//Compute the total cost & show the receipt in your browser. 
+var item1=20;
+var item2=30;
+var q1=+prompt("Enter quantity of item1:","");
+var q2=+prompt("Enter quantity of item2:","");
+var sc=100;
+var sum=item1*q1+item2*q2+sc;
+document.write("Total cost of your order is "+sum);
+//TASK 8. Store total marks & marks obtained by a student in 2 variables. 
+//Compute the percentage & show the result in your browser
+var total=100;
+var secured=90;
+var perc=(secured/total)*100;
+document.write("<br>Percentage: "+perc) ;
+//TASK 10. Write a program to initialize a variable with some number and do arithmetic in 
+//following sequence: a. Add 5 b. Multiply by 10 c. Divide the result by 2 Perform all 
+//calculations in a single expression 
+var num=5;
+var ss=((num+5)*10)/2;
+//TASK 11. The Age Calculator: Forgot how old someone is? Calculate it! 
+//a. Store the current year in a variable. b. Store their birth year in a variable. 
+//c. Calculate their 2 possible ages based on the stored values. 
+//Output them to the screen like so: “They are either NN or NN years old”. 
+var birthYear = 1984;
+var futureYear  = 2012;
+var age  = futureYear - birthYear;
+document.write("You will be either " + age + " or " + (age - 1));
+//TASK 12. The Geometrizer: Calculate properties of a circle. a. Store a radius into a variable. 
+//b. Calculate the circumference based on the radius, and output “The circumference is NN”. 
+//(Hint : Circumference of a circle = 2 π r , π = 3.142) Calculate the area based on the radius, 
+//and output “The  area is NN”. (Hint : Area of a circle = π r2, π = 3.142) 
+var radius=3;
+var c= 2*3.142*radius;
+document.write("<br><br>The circumference is ",c);
+var area=3.14*Math.pow(radius,2);
+document.write("<br><br>The area is "+ area);
+//TASK 13. The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite 
+//snack is? Wonder no more. a. Store your favorite snack into a variable b. Store your current age 
+//into a variable. c. Store a maximum age into a variable. d. Store an estimated amount per day
+// (as a number). e. Calculate how many would you eat total for the rest of your life. 
+//Output the result to the screen like so: “You will need NNNN to last you until the ripe old age of NN”. 
+var snacks="lays";
+var c_age=21;
+var max_age=90;
+var amt=10;
+var ripe=(max_age-c_age)*amt;
+document.write("<br><br>You will need " +ripe+"lays to last you until the ripe old age of 90");
+
+
+
  
-
-
-
