@@ -258,15 +258,86 @@ var ariz=prompt("Enter your name");
 alert("Welcome: "+ariz);
 //TASK 5. Write a program to take input a number from user & display it’s multiplication table on your browser. 
 //If user does not enter a new number, multiplication table of 5 should be displayed by default. 
-var no=+prompt("Enter a no.","");
-if (no==null)
+var noo=+prompt("Enter a no. for table","");
+if (noo==null)
 {
-
+    for(i=1;i<11;i++)
+{   
+    document.write("<br>5 x "+ i +"="+5*i);
+}
 }
 else{
-    
+    for(i=1;i<11;i++)
+{   
+    document.write("<br>"+noo+" x "+ i +"="+noo*i);
+}
+}
+//TASK 6. Take a) Take three subjects name from user and store them in 3 different variables. 
+//b) Total marks for each subject is 100, store it in another variable. c) Take obtained marks 
+//for first subject from user and stored it in different variable.  
+//d) Take obtained marks for remaining 2 subjects from user and store them in variables. 
+//e) Now calculate total marks and percentage and show the result in browser like this.(Hint: user table
+var sub1=propmt("Enter the sub name","");
+var sub2=propmt("Enter the sub name","");
+var sub3=propmt("Enter the sub name","");
+var tt=100;
+var ob1=+prompt("Enter the marks you obtained in sub1","");
+var ob2=+prompt("Enter the marks you obtained in sub2","");
+var ob3=+prompt("Enter the marks you obtained in sub3","");
+document.write("Subject Total Marks Ob Percentage");
+document.write(sub1,tt ,ob1,(ob1/tt)*100);
+
+//CHAPTER 9-11
+//TASK1. Write a program to take “city” name as input from user. If user enters “Karachi”, 
+//welcome the user like this: “Welcome to city of lights”
+var city=prompt("Enter the city name");
+if(city=="Karachi")
+{
+    document.write("Welcome to the city of lights");
+}
+//TASK 2. Write a program to take “gender” as input from user. If the user is male, 
+//give the message: Good Morning Sir. If the user is female, give the message: Good Morning Ma’am. 
+var gender=prompt("Enter your gender","");
+if(gender==male){
+    document.write("Good Morning Sir!")
+}
+else{
+    document.write("Good Morning Ma’am");
+}
+//TASK3. Write a program to take input color of road traffic signal from the 
+//user & show the message according to this table: 
+var signal=prompt("Enter color");
+if(signal=="red")
+{
+    document.write("Must stop");
+} 
+else if(signal==yellow)
+{
+    document.write("Ready to move");
+}
+else{
+    document.write("Move now");
 }
 
-
+//TASK 4. Write a program to take input remaining fuel in car (in litres) from user. If the current 
+//fuel is less than 0.25litres, show the message “Please refill the fuel in your car” 
+var fuel=+prompt("Remaining fuel:","");
+if(fuel<0.25)
+{
+    document.write("Please fill the fuel");
+}
+//TASK 5.Run this script, & check whether alert message would be displayed or not. Record the outputs. 
+//a. var a = 4; if (++a === 5){ alert("given condition for variable a is true"); } 
+//b. var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); } 
+ 
+//c. var c = 12; if (c++ === 13){ alert("condition 1 is true"); } 
+//if (c === 13){ alert("condition 2 is true"); } if (++c < 14){ alert("condition 3 is true"); } 
+//if(c === 14){ alert("condition 4 is true"); } 
+ 
+//d. var materialCost = 20000; var laborCost = 2000; var totalCost = materialCost + laborCost; 
+//if (totalCost === laborCost + materialCost){ alert("The cost equals"); } 
+ 
+//e. if (true){ alert("True"); } if (false){ alert("False"); } 
+//f. if("car" < "cat"){ alert("car is smaller than cat"); }
 
  
