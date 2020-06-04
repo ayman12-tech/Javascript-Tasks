@@ -340,4 +340,20 @@ if(fuel<0.25)
 //e. if (true){ alert("True"); } if (false){ alert("False"); } 
 //f. if("car" < "cat"){ alert("car is smaller than cat"); }
 
- 
+//TASK 6 Write a program to take input the marks obtained in three subjects & total marks. 
+//Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table: 
+//Show the total marks, marks obtained, percentage, grade & remarks like: 
+ var marks=+prompt("Enter your marks","");
+ var tm=300;
+var sc=(marks/tm)*100;
+if(sc<=100 && sc>=80)
+{
+    document.write("A+");
+} 
+else if(sc<=79 && sc>=70){
+    document.write("A");
+}
+else
+{
+    document.writeO("fail");
+}
