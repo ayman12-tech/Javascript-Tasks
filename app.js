@@ -357,3 +357,4 @@ else
 {
     document.writeO("fail");
 }
+//TASK 7
