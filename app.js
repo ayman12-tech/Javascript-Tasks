@@ -357,4 +357,22 @@ else
 {
     document.writeO("fail");
 }
-//TASK 7
+
+//TASK 7. Guess game: Store a secret number (ranging from 1 to 10) in a variable. 
+//Prompt user to guess the secret number. a. If user guesses the same number, 
+//show “Bingo! Correct answer”. b. If the guessed number +1 is the secret number, 
+//show “Close enough to the correct answer”. 
+
+var num=2;
+var secret=prompt("Enter the secret no.","");
+if(num==secret)
+{
+    document.write("Bingo! Correct ans.");
+}
+else if(secret==num+1)
+{
+    document.write("Close enough to the correct ans.");
+}
+//TASK 8. Write a program to check whether the given number is divisible by 3. 
+//Show the message to the user if the number is divisible by 3.
+ 
