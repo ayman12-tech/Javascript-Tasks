@@ -375,4 +375,92 @@ else if(secret==num+1)
 }
 //TASK 8. Write a program to check whether the given number is divisible by 3. 
 //Show the message to the user if the number is divisible by 3.
- 
+var nw=+prompt("Enter the no.","");
+if(nw%3==0)
+{
+    document.write("divisible by 3");
+}
+//TASK 9. Write a program that checks whether the given input is an even number or an odd number
+var evenn=+prompt("Enter the no.","");
+if(evenn%2==0)
+{
+    document.write("Even");
+}
+else{
+    document.write("odd");
+}
+//TASK 10. Write a program that takes temperature as input and shows a message based on following criteria 
+//a. T > 40 then “It is too hot outside.” b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.” d. T > 10 then “OMG! Today’s weather is so Cool.” 
+var tep=+prompt("enter the temperature");
+if(tep>40)
+{
+    document.write("it is hot outside");
+}
+else if("tep>30"){
+    document.write("The weather today is normal");
+}
+else if(tep > 20)
+{
+    document.write("todays weather is cool");
+}
+else if(tep > 10){
+    document.write("OMG! todays weather is cool");
+}
+
+//TASK 11.Write a program to create a calculator for +,-,*, / & % using if statements.
+// Take the following input: a. First number b. Second number c. Operation (+, -, *, /, %) 
+//Compute & show the calculated result to user. 
+var first =+prompt("Enter the first no.");
+var second=+prompt("Enter the second no.");
+var operation=prompt("Enter the operation");
+if (operation=="+")
+{
+    third=first+second;
+    document.write(third);
+}
+else if(operation == "-")
+{
+    third=first-second;
+    document.write(third);
+}
+else if(operation == "*")
+{
+    third=first*second;
+    document.write(third);
+}
+else if(operation == "/")
+{
+    third=first/second;
+    document.write(third);
+}
+
+//Chapter 12 -13
+//TASK 1.Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+var lar=+prompt("Enter a no.","");
+var sma=+prompt("Enter a no.","");
+if(lar>sma)
+{
+    document.write(lar);
+}
+else if(lar==sma)
+{
+    document.write("Both are equal");
+}
+//TASK 2. Write a program that takes input a number from user & state
+// whether the number is positive, negative or zero. 
+var inn=+prompt("Enter a no.");
+if(inn>0)
+{
+    document.write("Positive");
+}
+else if (inn <0)
+{
+    document.write("negative");
+}
+else if(inn ==0){
+    document.write("zero");
+}
+//CHAPTER 14 - 16 
+//task 1.Declare an empty array using JS literal notation to store student names in future. 
