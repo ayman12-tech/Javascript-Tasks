@@ -464,3 +464,68 @@ else if(inn ==0){
 }
 //CHAPTER 14 - 16 
 //task 1.Declare an empty array using JS literal notation to store student names in future. 
+var emp=[];
+// task 2. Declare an empty array using JS object notation to store student names in future. 
+var emp=[];
+//task 3. Declare and initialize a strings array
+var arra=["ayman","rizwan" ,"mariam", "maaz"];
+// task 4.  Declare and initialize a numbers array
+var nn=[22,12];
+//task 5. Declare and initialize a boolean array. 
+var boolArray = new boolean[size];
+//task 6. Declare and initialize a mixed array.
+var mix=[7,"soha"];
+//task 7. Declare and Initialize an array and store available education qualifications in
+// Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD). Show the listed qualifications in 
+//your browser like: 
+var qq=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+document.write("QUALIFICATIONS");
+for(i=0;i<qq.length;i++)
+{
+    document.write(qq[i]);
+
+}
+//task 8. Write a program to store 3 student names in an array.Take another array to store score of these three students.
+// Assume that total marks are 500 for each student, display the scores & percentages of students like: 
+var std=["ayman", "rizwan", "mariam"];
+var ss=[490,490,480];
+for(i=0;i<std.length;i++)
+{
+    document.write("\nScore of " +std[i]+"Percentage"+(ss[i]/500)*100);
+}
+//task 9. Initialize an array with color names. Display the array elements in your browser. 
+//a. Ask the user what color he/she wants to add to the beginning & add that color to the beginning 
+//of the array. Display the updated array in your browser. b. Ask the user what color he/she wants to 
+//add to the end & add that color to the end of the array. Display the updated array in your browser. 
+//c. Add two more color to the beginning of the array. Display the updated array in your browser. 
+//d. Delete the first color in the array. Display the updated array in your browser.
+// e. Delete the last color in the array. Display the updated array in your browser
+// f. Ask the user at which index he/she wants to add a color & color name.
+// Then add the color to desired position/index. . Display the updated array in your browser. 
+//g. Ask the user at which index he/she wants to delete color(s) & how many colors he/she wants to delete. Then 
+//remove the same number of color(s) from user-defined position/index. .
+// Display the updated array in your browser.
+var color=["pink","red","orange","black"];
+for(i=0;i<color.length;i++)
+{
+    document.write(color[i]);
+}
+var raa=prompt("What color you want to add?");
+color.push(raa);
+for(i=0;i<color.length;i++)
+{
+    document.write(color[i]);
+}
+var araa=prompt("What color you want to add?");
+color.push(araa);
+var aaraa=prompt("What color you want to add?");
+color.push(aaraa);
+for(i=0;i<color.length;i++)
+{
+    document.write(color[i]);
+}
+color.pop();
+for(i=0;i<color.length;i++)
+{
+    document.write(color[i]);
+}
