@@ -529,3 +529,21 @@ for(i=0;i<color.length;i++)
 {
     document.write(color[i]);
 }
+//Chapter 17-20
+//task 1. Declare and initialize an empty multidimensional array. (Array of arrays) 
+var mul=[[],[]];
+//task 2.Declare and initialize a multidimensional array representing the following matrix:  
+ var muul=[[1,2],[3,4]];
+ //task 3 3. Write a program to print numeric counting from 1 to 10.  
+ var nu=[1,2,3,4,5,6,7,8,9,10];
+ for(i=0;i<nu.length;i++)
+{
+    document.write(nu[i]);
+}
+//task.5. Write a program to print items of the following array using for loop: 
+//fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”]
+var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+for(i=0;i<fruits.length;i++)
+{
+    document.write(fruits[i]);
+}
